@@ -1,0 +1,42 @@
+{
+  "name": "blockchain-explorer",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.0",
+    "@emotion/styled": "^11.11.0",
+    "@headlessui/react": "^1.7.13",
+    "@heroicons/react": "^2.0.17",
+    "@next/font": "13.4.1",
+    "axios": "^1.4.0",
+    "classnames": "^2.3.2",
+    "date-fns": "^2.30.0",
+    "ethers": "^6.3.0",
+    "heroicons": "^2.0.17",
+    "next": "13.4.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-router-dom": "^6.11.1",
+    "react-search-autocomplete": "^8.5.2",
+    "typescript": "5.0.4"
+  },
+  "devDependencies": {
+    "@types/node": "20.1.0",
+    "@types/react": "18.2.6",
+    "@types/react-dom": "18.2.4",
+    "@typescript-eslint/eslint-plugin": "^5.31.0",
+    "@typescript-eslint/parser": "^5.31.0",
+    "autoprefixer": "^10.4.14",
+    "eslint": "8.40.0",
+    "eslint-config-next": "13.4.1",
+    "postcss": "^8.4.23",
+    "prettier-plugin-tailwindcss": "^0.2.2",
+    "tailwindcss": "^3.3.2"
+  }
+}

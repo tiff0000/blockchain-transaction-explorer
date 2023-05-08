@@ -1,0 +1,55 @@
+@import './typography.css';
+@import './animations.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --white: 239 240 242;
+    --black: 18 21 32;
+
+    --cloud-100: 231 232 234;
+    --could-200: 208 209 214;
+    --cloud-300: 184 185 193;
+    --cloud-400: 137 139 151;
+    --cloud-500: 113 116 131;
+    --cloud-600: 90 93 110;
+    --cloud-700: 66 69 89;
+    --cloud-800: 43 46 69;
+    --cloud-900: 31 35 58;
+
+    --night-100: 242 244 255;
+    --night-200: 221 226 255;
+    --night-300: 165 177 255;
+    --night-400: 82 105 246;
+    --night-500: 25 46 178;
+    --night-600: 14 29 124;
+    --night-700: 17 22 75;
+    --night-800: 19 23 48;
+    --night-900: 6 6 23;
+
+    --error: 234 71 62;
+    --warning: 255 138 0;
+    --success: 0 235 250;
+  }
+
+  html,
+  body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    @apply bg-night-900 text-white font-nunito;
+  }
+}
+
+@layer utilities {
+  .container {
+    @apply p-2;
+  }
+  .break-words {
+    @apply break-words;
+    @apply flex-1;
+    @apply max-w-full;
+  }
+}
